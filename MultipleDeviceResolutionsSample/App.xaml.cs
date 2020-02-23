@@ -30,6 +30,7 @@ namespace MultipleDeviceResolutionsSample
 
         public static bool IsASmallDevice()
         {
+            return false;
             // Get Metrics
             var mainDisplayInfo = DeviceDisplay.MainDisplayInfo;
 
